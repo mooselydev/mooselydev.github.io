@@ -1,4 +1,3 @@
-# src/content/blog/sample-post.md
 ---
 title: Blog Setup
 pubDatetime: 2025-09-17T12:13:00+00:00
