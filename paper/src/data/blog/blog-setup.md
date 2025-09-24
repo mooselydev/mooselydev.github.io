@@ -1,6 +1,7 @@
 ---
 title: Blog Setup
 pubDatetime: 2025-09-17T12:13:00Z
+modDatetime: 2025-09-25T11:25:36Z
 tags:
   - blogging
 description: Blog setup and quick-reference post notes.
@@ -19,13 +20,30 @@ Posts need a bit of frontmatter to function properly, at the minimumum the follo
 ---
 title: Blog Setup
 description: Blog setup and quick-reference post notes.
-pubDatetime: 2025-09-17T12:13:00+00:00
+pubDatetime: 2025-09-17T12:13:00+00
+modDatetime: <null | 2025-09-22T06:25:00+00>
 tags:
   - blogging
 ---
 ```
 
 While `tags` are not *technically* required, tagging posts is a great way to find relevant posts for given topics. More information about adding posts can be found in the upstream [documentation](https://astro-paper-i18n.netlify.app/posts/adding-new-posts-in-astropaper-theme/)
+
+The following date command on Linux works to generate an acceptable timestamp for `pubDatetime` or `modDatetime` frontmatter fields: 
+
+```bash
+date +%Y-%m-%dT%H:%M:%SZ
+```
+
+## Testing locally
+
+To run and verify the blog site locally, execute: 
+
+```bash
+npm run dev -- --host
+```
+
+This runs the development server and makes the blog available on port http://localhost:4321
 
 # Hosting
 
