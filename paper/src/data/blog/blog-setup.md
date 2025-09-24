@@ -1,6 +1,6 @@
 ---
 title: Blog Setup
-pubDatetime: 2025-09-17T12:13:00+00:00
+pubDatetime: 2025-09-17T12:13:00Z
 tags:
   - blogging
 description: Blog setup and quick-reference post notes.
